@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+}
+
+.menu{
+    background-color: #0f0726;
+    height: 44px;
+    width: 100%;
+}
+
+.parent-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between ;
+    align-self: center;
+}
+
+.upper-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.upper-menu a:hover{
+    color: yellow;
+}
+
+.upper-menu-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn{
+    padding: 7px;
+    background-color: yellow;
+    border: 5px;
+    border-style: none;
+    border-radius: 30px;
+}
+
+
+.top{
+    width: 100%;
+    height: auto
+}
+
+.social{
+    padding-right: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 16px;
+    top: 60px
+} 
+
+.social h5{
+    color: white;
+}
+
+.social-btns img{
+    width: 20px;
+}
+
+/* Zinu, title uz bildi ieliku ne tā, kā vajag, bet ir :D */
+
+.title{
+    color: white;
+}
+.title h1{
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+    font-size: 65px;
+}
+
+.title h3{
+    position: absolute;
+    right: 16px;
+    bottom: 2px;
+}
+
+.info{
+    padding-right: 10px;
+}
+
+#summary h2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Summary{
+    margin: 20px 70px 0 70px;
+    color: gray;
+}
+
+.add{
+    margin: 0 70px 40px 70px;
+    color: gray;
+}
+.add span{
+    font-size: 25px;
+    color: gray;
+}
+
+.bg-overlay-2{
+    background-image: url(images/car.jpg);
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.text-center_upper{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.cast-info-cell{
+    float: left;
+}
+
+#trailer h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+#trailer{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
